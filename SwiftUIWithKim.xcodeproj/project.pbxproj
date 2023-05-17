@@ -14,6 +14,7 @@
 		71759EB22A1544A5009C5BA2 /* SwiftUIWithKimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EB12A1544A5009C5BA2 /* SwiftUIWithKimTests.swift */; };
 		71759EBC2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EBB2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift */; };
 		71759EBE2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */; };
+		71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		71759EB72A1544A5009C5BA2 /* SwiftUIWithKimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIWithKimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71759EBB2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimUITests.swift; sourceTree = "<group>"; };
 		71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		71759E9F2A1544A2009C5BA2 /* SwiftUIWithKim */ = {
 			isa = PBXGroup;
 			children = (
+				71759ECA2A1544BF009C5BA2 /* Learning */,
 				71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */,
 				71759EA22A1544A2009C5BA2 /* ContentView.swift */,
 				71759EA42A1544A5009C5BA2 /* Assets.xcassets */,
@@ -125,6 +128,22 @@
 				71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIWithKimUITests;
+			sourceTree = "<group>";
+		};
+		71759ECA2A1544BF009C5BA2 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				71759ECB2A1544CC009C5BA2 /* 05_17_2023 */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		71759ECB2A1544CC009C5BA2 /* 05_17_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */,
+			);
+			path = 05_17_2023;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */,
+				71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */,
 				71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
