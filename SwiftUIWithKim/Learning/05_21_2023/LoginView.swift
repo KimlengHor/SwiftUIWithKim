@@ -7,6 +7,15 @@
 
 import SwiftUI
 
+/*
+ In SwiftUI, it's crucial to create a seamless and intuitive user interface. When users want to interact with something other than a TextField, dismissing the keyboard promptly can make a significant difference. By implementing tab to dismiss, we can achieve just that!
+
+ In the SignIn view, I've incorporated the tab to dismiss keyboard functionality to enhance the user experience. Now, users can effortlessly dismiss the keyboard and interact with other elements on the screen. Check out my SignIn view on GitHub:
+
+
+ Remember, creating a smooth user experience is paramount for any app. By enabling tab view  to dismiss the keyboard, we can empower users to effortlessly navigate and interact with our SwiftUI app.
+ */
+
 struct LoginView: View {
     
     @State var email: String = ""
