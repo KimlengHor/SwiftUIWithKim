@@ -21,6 +21,7 @@
 		7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B27E2A1989AC001D4A1E /* SearchBarView.swift */; };
 		7180B2822A1AB850001D4A1E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B2812A1AB850001D4A1E /* LoginView.swift */; };
 		7180B2842A1ABAE5001D4A1E /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B2832A1ABAE5001D4A1E /* UIApplicationExtension.swift */; };
+		718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718EEA632A1CFFF3000625CB /* CheckedContinuation.swift */; };
 		71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A995F32A1BB3B800557DEC /* ListRefreshView.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		7180B27E2A1989AC001D4A1E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		7180B2812A1AB850001D4A1E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		7180B2832A1ABAE5001D4A1E /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		718EEA632A1CFFF3000625CB /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		71A995F32A1BB3B800557DEC /* ListRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				718EEA622A1CFEFC000625CB /* 05_23_2023 */,
 				71A995F22A1BB39000557DEC /* 05_22_2023 */,
 				7180B2802A1AB7D6001D4A1E /* 05_21_2023 */,
 				7180B27B2A1983CD001D4A1E /* 05_20_2023 */,
@@ -197,6 +200,14 @@
 				7180B2832A1ABAE5001D4A1E /* UIApplicationExtension.swift */,
 			);
 			path = 05_21_2023;
+			sourceTree = "<group>";
+		};
+		718EEA622A1CFEFC000625CB /* 05_23_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				718EEA632A1CFFF3000625CB /* CheckedContinuation.swift */,
+			);
+			path = 05_23_2023;
 			sourceTree = "<group>";
 		};
 		71A995F22A1BB39000557DEC /* 05_22_2023 */ = {
@@ -344,6 +355,7 @@
 				7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */,
 				71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */,
 				7180B27D2A19845F001D4A1E /* SearchView.swift in Sources */,
+				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
 				7180B2842A1ABAE5001D4A1E /* UIApplicationExtension.swift in Sources */,
 				7180B2822A1AB850001D4A1E /* LoginView.swift in Sources */,
 				71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */,
