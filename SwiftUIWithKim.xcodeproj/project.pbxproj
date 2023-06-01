@@ -26,6 +26,7 @@
 		718EEA672A1E591F000625CB /* AnimatedChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718EEA662A1E591F000625CB /* AnimatedChart.swift */; };
 		718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718EEA692A1FBA6B000625CB /* HepticView.swift */; };
 		71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A995F32A1BB3B800557DEC /* ListRefreshView.swift */; };
+		71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D235162A28F90900A4E3BA /* SFSymbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		718EEA662A1E591F000625CB /* AnimatedChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedChart.swift; sourceTree = "<group>"; };
 		718EEA692A1FBA6B000625CB /* HepticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HepticView.swift; sourceTree = "<group>"; };
 		71A995F32A1BB3B800557DEC /* ListRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRefreshView.swift; sourceTree = "<group>"; };
+		71D235162A28F90900A4E3BA /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				71D235152A28F8CC00A4E3BA /* 06_01_2023 */,
 				7154694F2A266A3700C89214 /* 05_30_2023 */,
 				718EEA682A1FBA31000625CB /* 05_25_2023 */,
 				718EEA652A1E590D000625CB /* 05_24_2023 */,
@@ -249,6 +252,14 @@
 				71A995F32A1BB3B800557DEC /* ListRefreshView.swift */,
 			);
 			path = 05_22_2023;
+			sourceTree = "<group>";
+		};
+		71D235152A28F8CC00A4E3BA /* 06_01_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				71D235162A28F90900A4E3BA /* SFSymbols.swift */,
+			);
+			path = 06_01_2023;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +394,7 @@
 			files = (
 				7180B27A2A182929001D4A1E /* DoubleExtension.swift in Sources */,
 				71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */,
+				71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */,
 				71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */,
 				715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */,
 				7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */,
