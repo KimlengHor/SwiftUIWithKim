@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */; };
+		7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */; };
 		71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */; };
 		71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EA22A1544A2009C5BA2 /* ContentView.swift */; };
 		71759EA52A1544A5009C5BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71759EA42A1544A5009C5BA2 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
+		7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
 		71759E9D2A1544A2009C5BA2 /* SwiftUIWithKim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithKim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimApp.swift; sourceTree = "<group>"; };
 		71759EA22A1544A2009C5BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 				715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */,
 			);
 			path = 05_30_2023;
+			sourceTree = "<group>";
+		};
+		7169B5722A2A8D1B00C49719 /* 06_02_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */,
+			);
+			path = 06_02_2023;
 			sourceTree = "<group>";
 		};
 		71759E942A1544A2009C5BA2 = {
@@ -165,6 +175,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				7169B5722A2A8D1B00C49719 /* 06_02_2023 */,
 				71D235152A28F8CC00A4E3BA /* 06_01_2023 */,
 				7154694F2A266A3700C89214 /* 05_30_2023 */,
 				718EEA682A1FBA31000625CB /* 05_25_2023 */,
@@ -399,6 +410,7 @@
 				715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */,
 				7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */,
 				7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */,
+				7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */,
 				71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */,
 				7180B27D2A19845F001D4A1E /* SearchView.swift in Sources */,
 				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
