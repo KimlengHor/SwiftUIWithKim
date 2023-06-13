@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FB1272A31009F00644BE5 /* StringPluralization.swift */; };
 		715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */; };
 		7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */; };
 		71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		712FB1272A31009F00644BE5 /* StringPluralization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPluralization.swift; sourceTree = "<group>"; };
 		715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
 		7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
 		71759E9D2A1544A2009C5BA2 /* SwiftUIWithKim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithKim.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		712FB1292A3100A500644BE5 /* 06_07_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				712FB1272A31009F00644BE5 /* StringPluralization.swift */,
+			);
+			path = 06_07_2023;
+			sourceTree = "<group>";
+		};
 		7154694F2A266A3700C89214 /* 05_30_2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +185,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				712FB1292A3100A500644BE5 /* 06_07_2023 */,
 				7169B5722A2A8D1B00C49719 /* 06_02_2023 */,
 				71D235152A28F8CC00A4E3BA /* 06_01_2023 */,
 				7154694F2A266A3700C89214 /* 05_30_2023 */,
@@ -415,6 +426,7 @@
 				7180B27D2A19845F001D4A1E /* SearchView.swift in Sources */,
 				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
 				718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */,
+				712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */,
 				7180B2842A1ABAE5001D4A1E /* UIApplicationExtension.swift in Sources */,
 				7180B2822A1AB850001D4A1E /* LoginView.swift in Sources */,
 				71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */,
