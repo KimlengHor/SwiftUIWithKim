@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FB1272A31009F00644BE5 /* StringPluralization.swift */; };
 		713B3AC42A4228790049D6F4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713B3AC32A4228790049D6F4 /* LoadingView.swift */; };
+		713CE0C42A44F8B500442D5E /* SoundsEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CE0C32A44F8B500442D5E /* SoundsEffect.swift */; };
+		713CE0C82A44FC1200442D5E /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 713CE0C62A44FC1200442D5E /* tada.mp3 */; };
+		713CE0C92A44FC1200442D5E /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 713CE0C72A44FC1200442D5E /* duck.mp3 */; };
 		715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */; };
 		7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */; };
 		71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */; };
@@ -52,6 +55,9 @@
 /* Begin PBXFileReference section */
 		712FB1272A31009F00644BE5 /* StringPluralization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPluralization.swift; sourceTree = "<group>"; };
 		713B3AC32A4228790049D6F4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		713CE0C32A44F8B500442D5E /* SoundsEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsEffect.swift; sourceTree = "<group>"; };
+		713CE0C62A44FC1200442D5E /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		713CE0C72A44FC1200442D5E /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 		715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
 		7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
 		71759E9D2A1544A2009C5BA2 /* SwiftUIWithKim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithKim.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +123,24 @@
 				713B3AC32A4228790049D6F4 /* LoadingView.swift */,
 			);
 			path = 06_21_2023;
+			sourceTree = "<group>";
+		};
+		713CE0C22A44F88E00442D5E /* 06_22_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				713CE0C52A44FC1200442D5E /* Sounds */,
+				713CE0C32A44F8B500442D5E /* SoundsEffect.swift */,
+			);
+			path = 06_22_2023;
+			sourceTree = "<group>";
+		};
+		713CE0C52A44FC1200442D5E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				713CE0C62A44FC1200442D5E /* tada.mp3 */,
+				713CE0C72A44FC1200442D5E /* duck.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		7154694F2A266A3700C89214 /* 05_30_2023 */ = {
@@ -195,6 +219,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				713CE0C22A44F88E00442D5E /* 06_22_2023 */,
 				713B3AC22A42285C0049D6F4 /* 06_21_2023 */,
 				712FB1292A3100A500644BE5 /* 06_07_2023 */,
 				7169B5722A2A8D1B00C49719 /* 06_02_2023 */,
@@ -400,7 +425,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71759EA82A1544A5009C5BA2 /* Preview Assets.xcassets in Resources */,
+				713CE0C92A44FC1200442D5E /* duck.mp3 in Resources */,
 				71759EA52A1544A5009C5BA2 /* Assets.xcassets in Resources */,
+				713CE0C82A44FC1200442D5E /* tada.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7180B27A2A182929001D4A1E /* DoubleExtension.swift in Sources */,
+				713CE0C42A44F8B500442D5E /* SoundsEffect.swift in Sources */,
 				71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */,
 				71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */,
 				71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */,
