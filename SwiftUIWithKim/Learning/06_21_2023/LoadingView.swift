@@ -15,10 +15,10 @@ struct LoadingView: View {
     private let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     
     var body: some View {
-        VStack(spacing: 15) {
-            Image(systemName: "circle.hexagongrid")
-                .resizable()
-                .frame(width: 50, height: 50)
+//        VStack(spacing: 15) {
+//            Image(systemName: "circle.hexagongrid")
+//                .resizable()
+//                .frame(width: 50, height: 50)
 
                 HStack(spacing: 0) {
                     ForEach(loadingText.indices) { index in
@@ -28,7 +28,7 @@ struct LoadingView: View {
                             .offset(y: counter == index ? -5 : 0)
                     }
                 }
-        }
+//        }
         .onReceive(timer) { _ in
             withAnimation(.spring()) {
                 let lastIndex = loadingText.count - 1
