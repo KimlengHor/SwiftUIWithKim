@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FB1272A31009F00644BE5 /* StringPluralization.swift */; };
 		713B3AC42A4228790049D6F4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713B3AC32A4228790049D6F4 /* LoadingView.swift */; };
-		713CE0C42A44F8B500442D5E /* SoundsEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CE0C32A44F8B500442D5E /* SoundsEffect.swift */; };
+		713CE0C42A44F8B500442D5E /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CE0C32A44F8B500442D5E /* SoundEffects.swift */; };
 		713CE0C82A44FC1200442D5E /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 713CE0C62A44FC1200442D5E /* tada.mp3 */; };
 		713CE0C92A44FC1200442D5E /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 713CE0C72A44FC1200442D5E /* duck.mp3 */; };
 		715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */; };
@@ -22,6 +22,7 @@
 		71759EBC2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EBB2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift */; };
 		71759EBE2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */; };
 		71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */; };
+		7178C7A92A47E89E009707A0 /* ButtonStyleLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178C7A82A47E89E009707A0 /* ButtonStyleLearning.swift */; };
 		7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B2622A16B992001D4A1E /* CustomizedHeader.swift */; };
 		7180B27A2A182929001D4A1E /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B2792A182929001D4A1E /* DoubleExtension.swift */; };
 		7180B27D2A19845F001D4A1E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B27C2A19845F001D4A1E /* SearchView.swift */; };
@@ -55,7 +56,7 @@
 /* Begin PBXFileReference section */
 		712FB1272A31009F00644BE5 /* StringPluralization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPluralization.swift; sourceTree = "<group>"; };
 		713B3AC32A4228790049D6F4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		713CE0C32A44F8B500442D5E /* SoundsEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsEffect.swift; sourceTree = "<group>"; };
+		713CE0C32A44F8B500442D5E /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		713CE0C62A44FC1200442D5E /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		713CE0C72A44FC1200442D5E /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 		715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		71759EBB2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimUITests.swift; sourceTree = "<group>"; };
 		71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		7178C7A82A47E89E009707A0 /* ButtonStyleLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleLearning.swift; sourceTree = "<group>"; };
 		7180B2622A16B992001D4A1E /* CustomizedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedHeader.swift; sourceTree = "<group>"; };
 		7180B2792A182929001D4A1E /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 		7180B27C2A19845F001D4A1E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -129,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				713CE0C52A44FC1200442D5E /* Sounds */,
-				713CE0C32A44F8B500442D5E /* SoundsEffect.swift */,
+				713CE0C32A44F8B500442D5E /* SoundEffects.swift */,
 			);
 			path = 06_22_2023;
 			sourceTree = "<group>";
@@ -219,6 +221,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				7178C7A72A47E866009707A0 /* 06_25_2023 */,
 				713CE0C22A44F88E00442D5E /* 06_22_2023 */,
 				713B3AC22A42285C0049D6F4 /* 06_21_2023 */,
 				712FB1292A3100A500644BE5 /* 06_07_2023 */,
@@ -244,6 +247,14 @@
 				71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */,
 			);
 			path = 05_17_2023;
+			sourceTree = "<group>";
+		};
+		7178C7A72A47E866009707A0 /* 06_25_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				7178C7A82A47E89E009707A0 /* ButtonStyleLearning.swift */,
+			);
+			path = 06_25_2023;
 			sourceTree = "<group>";
 		};
 		7180B2612A16B972001D4A1E /* 05_18_2023 */ = {
@@ -453,7 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7180B27A2A182929001D4A1E /* DoubleExtension.swift in Sources */,
-				713CE0C42A44F8B500442D5E /* SoundsEffect.swift in Sources */,
+				713CE0C42A44F8B500442D5E /* SoundEffects.swift in Sources */,
 				71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */,
 				71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */,
 				71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */,
@@ -465,6 +476,7 @@
 				7180B27D2A19845F001D4A1E /* SearchView.swift in Sources */,
 				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
 				718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */,
+				7178C7A92A47E89E009707A0 /* ButtonStyleLearning.swift in Sources */,
 				712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */,
 				7180B2842A1ABAE5001D4A1E /* UIApplicationExtension.swift in Sources */,
 				7180B2822A1AB850001D4A1E /* LoginView.swift in Sources */,

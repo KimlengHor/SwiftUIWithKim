@@ -30,7 +30,7 @@ class SoundManager {
     }
 }
 
-struct SoundsEffect: View {
+struct SoundEffects: View {
     var body: some View {
         VStack(spacing: 40) {
             Button("Play sound 1") {
@@ -43,8 +43,8 @@ struct SoundsEffect: View {
     }
 }
 
-struct SoundsEffect_Previews: PreviewProvider {
+struct SoundEffects_Previews: PreviewProvider {
     static var previews: some View {
-        SoundsEffect()
+        SoundEffects()
     }
 }
