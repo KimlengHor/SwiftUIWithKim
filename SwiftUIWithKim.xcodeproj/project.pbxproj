@@ -15,6 +15,11 @@
 		713CE0C92A44FC1200442D5E /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 713CE0C72A44FC1200442D5E /* duck.mp3 */; };
 		715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */; };
 		7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */; };
+		716B195B2A6F21440048999F /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B195A2A6F21440048999F /* FoodListView.swift */; };
+		716B195D2A6F217B0048999F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B195C2A6F217B0048999F /* Food.swift */; };
+		716B19612A6F21A10048999F /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B19602A6F21A10048999F /* FoodListViewModel.swift */; };
+		716B19652A6F22580048999F /* FoodListDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B19642A6F22580048999F /* FoodListDataService.swift */; };
+		716B19672A6F26120048999F /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B19662A6F26120048999F /* FoodView.swift */; };
 		71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */; };
 		71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EA22A1544A2009C5BA2 /* ContentView.swift */; };
 		71759EA52A1544A5009C5BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71759EA42A1544A5009C5BA2 /* Assets.xcassets */; };
@@ -74,6 +79,11 @@
 		713CE0C72A44FC1200442D5E /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 		715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
 		7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
+		716B195A2A6F21440048999F /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		716B195C2A6F217B0048999F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		716B19602A6F21A10048999F /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
+		716B19642A6F22580048999F /* FoodListDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListDataService.swift; sourceTree = "<group>"; };
+		716B19662A6F26120048999F /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		71759E9D2A1544A2009C5BA2 /* SwiftUIWithKim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWithKim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71759EA02A1544A2009C5BA2 /* SwiftUIWithKimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimApp.swift; sourceTree = "<group>"; };
 		71759EA22A1544A2009C5BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -193,6 +203,50 @@
 			path = 06_02_2023;
 			sourceTree = "<group>";
 		};
+		716B19592A6F20D90048999F /* 07_24_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				716B19632A6F22460048999F /* Services */,
+				716B19622A6F21A60048999F /* ViewModels */,
+				716B195F2A6F21880048999F /* Views */,
+				716B195E2A6F21820048999F /* Models */,
+			);
+			path = 07_24_2023;
+			sourceTree = "<group>";
+		};
+		716B195E2A6F21820048999F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				716B195C2A6F217B0048999F /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		716B195F2A6F21880048999F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				716B195A2A6F21440048999F /* FoodListView.swift */,
+				716B19662A6F26120048999F /* FoodView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		716B19622A6F21A60048999F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				716B19602A6F21A10048999F /* FoodListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		716B19632A6F22460048999F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				716B19642A6F22580048999F /* FoodListDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		71759E942A1544A2009C5BA2 = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +307,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				716B19592A6F20D90048999F /* 07_24_2023 */,
 				71C95CE82A6AE65400B9C7EA /* 07_21_2023 */,
 				71E7BAA62A689403003029E8 /* 07_19_2023 */,
 				71E7BA952A65F0C0003029E8 /* 07_17_2023 */,
@@ -582,16 +637,21 @@
 				71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */,
 				715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */,
 				71F57DA12A51CF8C00211449 /* RatingView.swift in Sources */,
+				716B195D2A6F217B0048999F /* Food.swift in Sources */,
+				716B19672A6F26120048999F /* FoodView.swift in Sources */,
 				7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */,
 				7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */,
 				71C95CEA2A6AE66600B9C7EA /* GradientButtons.swift in Sources */,
 				7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */,
 				71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */,
+				716B19612A6F21A10048999F /* FoodListViewModel.swift in Sources */,
 				7178541F2A5F5F7000568D86 /* SwipeView.swift in Sources */,
 				718932B02A4CE1DC00D320D2 /* RegistrationView.swift in Sources */,
 				7180B27D2A19845F001D4A1E /* SearchView.swift in Sources */,
 				71E7BAA82A68943E003029E8 /* LikeAnimationView.swift in Sources */,
 				71E7BA9B2A65F111003029E8 /* AnimalArrayObject.swift in Sources */,
+				716B19652A6F22580048999F /* FoodListDataService.swift in Sources */,
+				716B195B2A6F21440048999F /* FoodListView.swift in Sources */,
 				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
 				718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */,
 				7178C7A92A47E89E009707A0 /* ButtonStyleLearning.swift in Sources */,
