@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710513322A785A99001E0867 /* NeubrutalismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710513312A785A99001E0867 /* NeubrutalismButton.swift */; };
+		710513342A785C6B001E0867 /* NeubrutalismViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710513332A785C6B001E0867 /* NeubrutalismViewModifier.swift */; };
+		710513362A785C97001E0867 /* ScalingPressableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710513352A785C97001E0867 /* ScalingPressableButtonStyle.swift */; };
 		711AE8922A62066D0088470D /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711AE8912A62066D0088470D /* CarouselView.swift */; };
 		712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FB1272A31009F00644BE5 /* StringPluralization.swift */; };
 		713B3AC42A4228790049D6F4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713B3AC32A4228790049D6F4 /* LoadingView.swift */; };
@@ -72,6 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		710513312A785A99001E0867 /* NeubrutalismButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeubrutalismButton.swift; sourceTree = "<group>"; };
+		710513332A785C6B001E0867 /* NeubrutalismViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeubrutalismViewModifier.swift; sourceTree = "<group>"; };
+		710513352A785C97001E0867 /* ScalingPressableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingPressableButtonStyle.swift; sourceTree = "<group>"; };
 		711AE8912A62066D0088470D /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		712FB1272A31009F00644BE5 /* StringPluralization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPluralization.swift; sourceTree = "<group>"; };
 		713B3AC32A4228790049D6F4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -147,6 +153,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		710513302A785A62001E0867 /* 07_31_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				710513312A785A99001E0867 /* NeubrutalismButton.swift */,
+				710513332A785C6B001E0867 /* NeubrutalismViewModifier.swift */,
+				710513352A785C97001E0867 /* ScalingPressableButtonStyle.swift */,
+			);
+			path = 07_31_2023;
+			sourceTree = "<group>";
+		};
 		711AE8902A62065A0088470D /* 07_14_2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +325,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				710513302A785A62001E0867 /* 07_31_2023 */,
 				71C0FC0B2A71B73A00BD0E95 /* 07_26_2023 */,
 				716B19592A6F20D90048999F /* 07_24_2023 */,
 				71C95CE82A6AE65400B9C7EA /* 07_21_2023 */,
@@ -643,6 +660,7 @@
 				713CE0C42A44F8B500442D5E /* SoundEffects.swift in Sources */,
 				71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */,
 				71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */,
+				710513342A785C6B001E0867 /* NeubrutalismViewModifier.swift in Sources */,
 				71F62E202A5B777D00DD4F27 /* PostView.swift in Sources */,
 				711AE8922A62066D0088470D /* CarouselView.swift in Sources */,
 				71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */,
@@ -652,6 +670,7 @@
 				716B19672A6F26120048999F /* FoodView.swift in Sources */,
 				7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */,
 				7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */,
+				710513362A785C97001E0867 /* ScalingPressableButtonStyle.swift in Sources */,
 				71C95CEA2A6AE66600B9C7EA /* GradientButtons.swift in Sources */,
 				7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */,
 				71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */,
@@ -663,6 +682,7 @@
 				71E7BA9B2A65F111003029E8 /* AnimalArrayObject.swift in Sources */,
 				716B19652A6F22580048999F /* FoodListDataService.swift in Sources */,
 				716B195B2A6F21440048999F /* FoodListView.swift in Sources */,
+				710513322A785A99001E0867 /* NeubrutalismButton.swift in Sources */,
 				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
 				718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */,
 				7178C7A92A47E89E009707A0 /* ButtonStyleLearning.swift in Sources */,
