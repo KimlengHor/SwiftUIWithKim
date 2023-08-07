@@ -18,6 +18,7 @@
 		713CE0C92A44FC1200442D5E /* duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 713CE0C72A44FC1200442D5E /* duck.mp3 */; };
 		715469512A266A5300C89214 /* DefaultButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */; };
 		7161351D2A7B133100DFE955 /* ArrayJoined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161351C2A7B133100DFE955 /* ArrayJoined.swift */; };
+		7162EADB2A819B4C0095139A /* NeubrutalismPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162EADA2A819B4C0095139A /* NeubrutalismPicker.swift */; };
 		7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */; };
 		716B195B2A6F21440048999F /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B195A2A6F21440048999F /* FoodListView.swift */; };
 		716B195D2A6F217B0048999F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B195C2A6F217B0048999F /* Food.swift */; };
@@ -87,6 +88,7 @@
 		713CE0C72A44FC1200442D5E /* duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck.mp3; sourceTree = "<group>"; };
 		715469502A266A5300C89214 /* DefaultButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButtonViewModifier.swift; sourceTree = "<group>"; };
 		7161351C2A7B133100DFE955 /* ArrayJoined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayJoined.swift; sourceTree = "<group>"; };
+		7162EADA2A819B4C0095139A /* NeubrutalismPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeubrutalismPicker.swift; sourceTree = "<group>"; };
 		7169B5732A2A8D3500C49719 /* MenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBootcamp.swift; sourceTree = "<group>"; };
 		716B195A2A6F21440048999F /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
 		716B195C2A6F217B0048999F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
@@ -223,6 +225,14 @@
 			path = 08_02_2023;
 			sourceTree = "<group>";
 		};
+		7162EAD92A819A850095139A /* 08_07_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				7162EADA2A819B4C0095139A /* NeubrutalismPicker.swift */,
+			);
+			path = 08_07_2023;
+			sourceTree = "<group>";
+		};
 		7169B5722A2A8D1B00C49719 /* 06_02_2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +345,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				7162EAD92A819A850095139A /* 08_07_2023 */,
 				7161351B2A7B12ED00DFE955 /* 08_02_2023 */,
 				710513302A785A62001E0867 /* 07_31_2023 */,
 				71C0FC0B2A71B73A00BD0E95 /* 07_26_2023 */,
@@ -683,6 +694,7 @@
 				7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */,
 				7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */,
 				710513362A785C97001E0867 /* ScalingPressableButtonStyle.swift in Sources */,
+				7162EADB2A819B4C0095139A /* NeubrutalismPicker.swift in Sources */,
 				71C95CEA2A6AE66600B9C7EA /* GradientButtons.swift in Sources */,
 				7169B5742A2A8D3500C49719 /* MenuBootcamp.swift in Sources */,
 				71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */,
