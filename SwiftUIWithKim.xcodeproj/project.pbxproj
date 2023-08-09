@@ -43,6 +43,7 @@
 		7180B2842A1ABAE5001D4A1E /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B2832A1ABAE5001D4A1E /* UIApplicationExtension.swift */; };
 		718932AD2A4A5F9500D320D2 /* TabBarBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718932AC2A4A5F9500D320D2 /* TabBarBadge.swift */; };
 		718932B02A4CE1DC00D320D2 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718932AF2A4CE1DC00D320D2 /* RegistrationView.swift */; };
+		718E07B92A843CE300C97361 /* ColorfulSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718E07B82A843CE300C97361 /* ColorfulSpinnerView.swift */; };
 		718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718EEA632A1CFFF3000625CB /* CheckedContinuation.swift */; };
 		718EEA672A1E591F000625CB /* AnimatedChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718EEA662A1E591F000625CB /* AnimatedChart.swift */; };
 		718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718EEA692A1FBA6B000625CB /* HepticView.swift */; };
@@ -116,6 +117,7 @@
 		7180B2832A1ABAE5001D4A1E /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		718932AC2A4A5F9500D320D2 /* TabBarBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarBadge.swift; sourceTree = "<group>"; };
 		718932AF2A4CE1DC00D320D2 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		718E07B82A843CE300C97361 /* ColorfulSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulSpinnerView.swift; sourceTree = "<group>"; };
 		718EEA632A1CFFF3000625CB /* CheckedContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuation.swift; sourceTree = "<group>"; };
 		718EEA662A1E591F000625CB /* AnimatedChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedChart.swift; sourceTree = "<group>"; };
 		718EEA692A1FBA6B000625CB /* HepticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HepticView.swift; sourceTree = "<group>"; };
@@ -345,6 +347,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				718E07B72A843CCE00C97361 /* 08_09_2023 */,
 				7162EAD92A819A850095139A /* 08_07_2023 */,
 				7161351B2A7B12ED00DFE955 /* 08_02_2023 */,
 				710513302A785A62001E0867 /* 07_31_2023 */,
@@ -451,6 +454,14 @@
 				718932AF2A4CE1DC00D320D2 /* RegistrationView.swift */,
 			);
 			path = 06_28_2023;
+			sourceTree = "<group>";
+		};
+		718E07B72A843CCE00C97361 /* 08_09_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				718E07B82A843CE300C97361 /* ColorfulSpinnerView.swift */,
+			);
+			path = 08_09_2023;
 			sourceTree = "<group>";
 		};
 		718EEA622A1CFEFC000625CB /* 05_23_2023 */ = {
@@ -684,6 +695,7 @@
 				71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */,
 				710513342A785C6B001E0867 /* NeubrutalismViewModifier.swift in Sources */,
 				71F62E202A5B777D00DD4F27 /* PostView.swift in Sources */,
+				718E07B92A843CE300C97361 /* ColorfulSpinnerView.swift in Sources */,
 				711AE8922A62066D0088470D /* CarouselView.swift in Sources */,
 				71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */,
 				7161351D2A7B133100DFE955 /* ArrayJoined.swift in Sources */,
