@@ -51,6 +51,7 @@
 		71A995F42A1BB3B800557DEC /* ListRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A995F32A1BB3B800557DEC /* ListRefreshView.swift */; };
 		71C0FC0D2A71B75A00BD0E95 /* ExpandableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0FC0C2A71B75A00BD0E95 /* ExpandableListView.swift */; };
 		71C95CEA2A6AE66600B9C7EA /* GradientButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C95CE92A6AE66600B9C7EA /* GradientButtons.swift */; };
+		71CB376C2A8AD717006D79D1 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB376B2A8AD717006D79D1 /* CustomTabView.swift */; };
 		71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D235162A28F90900A4E3BA /* SFSymbols.swift */; };
 		71E7BA972A65F0D6003029E8 /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7BA962A65F0D6003029E8 /* InfiniteScrollView.swift */; };
 		71E7BA992A65F0E8003029E8 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7BA982A65F0E8003029E8 /* Animal.swift */; };
@@ -126,6 +127,7 @@
 		71A995F32A1BB3B800557DEC /* ListRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRefreshView.swift; sourceTree = "<group>"; };
 		71C0FC0C2A71B75A00BD0E95 /* ExpandableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableListView.swift; sourceTree = "<group>"; };
 		71C95CE92A6AE66600B9C7EA /* GradientButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtons.swift; sourceTree = "<group>"; };
+		71CB376B2A8AD717006D79D1 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		71D235162A28F90900A4E3BA /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		71E7BA962A65F0D6003029E8 /* InfiniteScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
 		71E7BA982A65F0E8003029E8 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -349,6 +351,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				71CB37682A8AD28F006D79D1 /* 08_14_2023 */,
 				71A8DC7B2A86E70000C9C4FD /* 08_11_2023 */,
 				718E07B72A843CCE00C97361 /* 08_09_2023 */,
 				7162EAD92A819A850095139A /* 08_07_2023 */,
@@ -521,6 +524,14 @@
 				71C95CE92A6AE66600B9C7EA /* GradientButtons.swift */,
 			);
 			path = 07_21_2023;
+			sourceTree = "<group>";
+		};
+		71CB37682A8AD28F006D79D1 /* 08_14_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				71CB376B2A8AD717006D79D1 /* CustomTabView.swift */,
+			);
+			path = 08_14_2023;
 			sourceTree = "<group>";
 		};
 		71D235152A28F8CC00A4E3BA /* 06_01_2023 */ = {
@@ -733,6 +744,7 @@
 				710513322A785A99001E0867 /* NeubrutalismButton.swift in Sources */,
 				718EEA642A1CFFF3000625CB /* CheckedContinuation.swift in Sources */,
 				718EEA6A2A1FBA6B000625CB /* HepticView.swift in Sources */,
+				71CB376C2A8AD717006D79D1 /* CustomTabView.swift in Sources */,
 				7178C7A92A47E89E009707A0 /* ButtonStyleLearning.swift in Sources */,
 				712FB1282A31009F00644BE5 /* StringPluralization.swift in Sources */,
 				71C0FC0D2A71B75A00BD0E95 /* ExpandableListView.swift in Sources */,
