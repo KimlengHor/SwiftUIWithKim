@@ -58,6 +58,7 @@
 		71E7BA9B2A65F111003029E8 /* AnimalArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7BA9A2A65F111003029E8 /* AnimalArrayObject.swift */; };
 		71E7BAA82A68943E003029E8 /* LikeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7BAA72A68943E003029E8 /* LikeAnimationView.swift */; };
 		71E7BAAA2A68951A003029E8 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7BAA92A68951A003029E8 /* LikeView.swift */; };
+		71EE007B2A94182A00B648F7 /* TinderSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE007A2A94182A00B648F7 /* TinderSwipe.swift */; };
 		71F57DA12A51CF8C00211449 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F57DA02A51CF8C00211449 /* RatingView.swift */; };
 		71F62E202A5B777D00DD4F27 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F62E1F2A5B777D00DD4F27 /* PostView.swift */; };
 		71FBBD602A8D5F3500C5D0D4 /* HeartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FBBD5F2A8D5F3500C5D0D4 /* HeartAnimation.swift */; };
@@ -135,6 +136,7 @@
 		71E7BA9A2A65F111003029E8 /* AnimalArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalArrayObject.swift; sourceTree = "<group>"; };
 		71E7BAA72A68943E003029E8 /* LikeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimationView.swift; sourceTree = "<group>"; };
 		71E7BAA92A68951A003029E8 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		71EE007A2A94182A00B648F7 /* TinderSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipe.swift; sourceTree = "<group>"; };
 		71F57DA02A51CF8C00211449 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		71F62E1F2A5B777D00DD4F27 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		71FBBD5F2A8D5F3500C5D0D4 /* HeartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimation.swift; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				71EE00792A94181B00B648F7 /* 08_21_2023 */,
 				71FBBD5E2A8D5F2200C5D0D4 /* 08_16_2023 */,
 				71CB37682A8AD28F006D79D1 /* 08_14_2023 */,
 				71A8DC7B2A86E70000C9C4FD /* 08_11_2023 */,
@@ -564,6 +567,14 @@
 			path = 07_19_2023;
 			sourceTree = "<group>";
 		};
+		71EE00792A94181B00B648F7 /* 08_21_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				71EE007A2A94182A00B648F7 /* TinderSwipe.swift */,
+			);
+			path = 08_21_2023;
+			sourceTree = "<group>";
+		};
 		71F57D9F2A51CF7900211449 /* 07_02_2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,6 +773,7 @@
 				71C0FC0D2A71B75A00BD0E95 /* ExpandableListView.swift in Sources */,
 				7180B2842A1ABAE5001D4A1E /* UIApplicationExtension.swift in Sources */,
 				7180B2822A1AB850001D4A1E /* LoginView.swift in Sources */,
+				71EE007B2A94182A00B648F7 /* TinderSwipe.swift in Sources */,
 				71759EA12A1544A2009C5BA2 /* SwiftUIWithKimApp.swift in Sources */,
 				71E7BA992A65F0E8003029E8 /* Animal.swift in Sources */,
 				71E7BAAA2A68951A003029E8 /* LikeView.swift in Sources */,
