@@ -11,7 +11,7 @@ struct ChatTile: View {
     var body: some View {
         VStack(spacing: 7) {
             HStack {
-                Text("Do you want to go the party this weekend?")
+                Text("Do you want to go to the party this weekend?")
                 Spacer()
             }
             
