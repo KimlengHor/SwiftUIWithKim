@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71024A442AABD65600D2AD41 /* ExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71024A432AABD65600D2AD41 /* ExplodingView.swift */; };
 		710513322A785A99001E0867 /* NeubrutalismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710513312A785A99001E0867 /* NeubrutalismButton.swift */; };
 		710513342A785C6B001E0867 /* NeubrutalismViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710513332A785C6B001E0867 /* NeubrutalismViewModifier.swift */; };
 		710513362A785C97001E0867 /* ScalingPressableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710513352A785C97001E0867 /* ScalingPressableButtonStyle.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71024A432AABD65600D2AD41 /* ExplodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplodingView.swift; sourceTree = "<group>"; };
 		710513312A785A99001E0867 /* NeubrutalismButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeubrutalismButton.swift; sourceTree = "<group>"; };
 		710513332A785C6B001E0867 /* NeubrutalismViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeubrutalismViewModifier.swift; sourceTree = "<group>"; };
 		710513352A785C97001E0867 /* ScalingPressableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingPressableButtonStyle.swift; sourceTree = "<group>"; };
@@ -171,6 +173,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71024A422AABD63F00D2AD41 /* 09_08_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				71024A432AABD65600D2AD41 /* ExplodingView.swift */,
+			);
+			path = 09_08_2023;
+			sourceTree = "<group>";
+		};
 		710513302A785A62001E0867 /* 07_31_2023 */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +385,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				71024A422AABD63F00D2AD41 /* 09_08_2023 */,
 				7156BE092AA2951400D080DF /* 09_01_2023 */,
 				7107E9522A9FF86100FA62F0 /* 08_30_2023 */,
 				71EE00792A94181B00B648F7 /* 08_21_2023 */,
@@ -756,6 +767,7 @@
 				7180B27A2A182929001D4A1E /* DoubleExtension.swift in Sources */,
 				718932AD2A4A5F9500D320D2 /* TabBarBadge.swift in Sources */,
 				71E7BA972A65F0D6003029E8 /* InfiniteScrollView.swift in Sources */,
+				71024A442AABD65600D2AD41 /* ExplodingView.swift in Sources */,
 				713CE0C42A44F8B500442D5E /* SoundEffects.swift in Sources */,
 				71759EA32A1544A2009C5BA2 /* ContentView.swift in Sources */,
 				71D235172A28F90900A4E3BA /* SFSymbols.swift in Sources */,
