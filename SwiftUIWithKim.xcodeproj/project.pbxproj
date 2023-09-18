@@ -36,6 +36,7 @@
 		71759EBC2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EBB2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift */; };
 		71759EBE2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */; };
 		71759ECD2A15455F009C5BA2 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */; };
+		717786312AB8E00500C1379B /* RectangleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717786302AB8E00500C1379B /* RectangleProgressBar.swift */; };
 		7178541F2A5F5F7000568D86 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178541E2A5F5F7000568D86 /* SwipeView.swift */; };
 		7178C7A92A47E89E009707A0 /* ButtonStyleLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7178C7A82A47E89E009707A0 /* ButtonStyleLearning.swift */; };
 		7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180B2622A16B992001D4A1E /* CustomizedHeader.swift */; };
@@ -117,6 +118,7 @@
 		71759EBB2A1544A5009C5BA2 /* SwiftUIWithKimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimUITests.swift; sourceTree = "<group>"; };
 		71759EBD2A1544A5009C5BA2 /* SwiftUIWithKimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWithKimUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		717786302AB8E00500C1379B /* RectangleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleProgressBar.swift; sourceTree = "<group>"; };
 		7178541E2A5F5F7000568D86 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		7178C7A82A47E89E009707A0 /* ButtonStyleLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleLearning.swift; sourceTree = "<group>"; };
 		7180B2622A16B992001D4A1E /* CustomizedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedHeader.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 		71759ECA2A1544BF009C5BA2 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				7177862F2AB8DFDC00C1379B /* 09_18_2023 */,
 				71024A422AABD63F00D2AD41 /* 09_08_2023 */,
 				7156BE092AA2951400D080DF /* 09_01_2023 */,
 				7107E9522A9FF86100FA62F0 /* 08_30_2023 */,
@@ -433,6 +436,14 @@
 				71759ECC2A15455F009C5BA2 /* AnimatedButton.swift */,
 			);
 			path = 05_17_2023;
+			sourceTree = "<group>";
+		};
+		7177862F2AB8DFDC00C1379B /* 09_18_2023 */ = {
+			isa = PBXGroup;
+			children = (
+				717786302AB8E00500C1379B /* RectangleProgressBar.swift */,
+			);
+			path = 09_18_2023;
 			sourceTree = "<group>";
 		};
 		7178541D2A5F5F3100568D86 /* 07_12_2023 */ = {
@@ -784,6 +795,7 @@
 				71FBBD602A8D5F3500C5D0D4 /* HeartAnimation.swift in Sources */,
 				716B19672A6F26120048999F /* FoodView.swift in Sources */,
 				71A8DC7D2A86E9C500C9C4FD /* WrapHStackView.swift in Sources */,
+				717786312AB8E00500C1379B /* RectangleProgressBar.swift in Sources */,
 				7180B2632A16B992001D4A1E /* CustomizedHeader.swift in Sources */,
 				7180B27F2A1989AC001D4A1E /* SearchBarView.swift in Sources */,
 				710513362A785C97001E0867 /* ScalingPressableButtonStyle.swift in Sources */,
